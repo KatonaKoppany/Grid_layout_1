@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+}
+
+.grid-container{
+    display: grid;
+    width: 80%;
+    height: 400px;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    padding: 10px;
+    grid-gap: 5px 10px;
+    margin: 0 auto;
+    background-color: #601486 ;
+}
+
+.grid-container > div{
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    background-color: #DAF7A6;
+}
